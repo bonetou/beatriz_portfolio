@@ -1,6 +1,5 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
+import 'package:flutter_project/components/homepage_default_controller.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -8,24 +7,21 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  final List<String> myTabNames = [
+    'INÍCIO',
+    'SOBRE MIM',
+    'PROJETOS',
+    'CONTATO'
+  ];
+  final String myTitle = 'BEATRIZ SEVERO';
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Home',
+      theme: ThemeData(fontFamily: 'Rajdhani'),
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.white12,
-          shadowColor: Colors.white12,
-          title: Text(
-            'BEATRIZ SEVERO',
-            style:
-                TextStyle(color: Colors.black45, fontWeight: FontWeight.normal),
-          ),
-          
-        ),
-        body: Center(child: Text('Teste')),
-      ),
+      home: HomepageDefaultController(),
     );
   }
 }
