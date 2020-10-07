@@ -10,9 +10,6 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  void initState() {
-    super.initState();
-  }
 
   final String bgImgName = 'img9.jpg';
   @override

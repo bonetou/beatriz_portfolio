@@ -7,12 +7,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final List<String> myTabNames = [
-    'INÍCIO',
-    'SOBRE MIM',
-    'PROJETOS',
-    'CONTATO'
-  ];
   final String myTitle = 'BEATRIZ SEVERO';
 
   @override
