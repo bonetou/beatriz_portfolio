@@ -10,7 +10,7 @@ class CustomGridView extends StatelessWidget {
         crossAxisSpacing: 5,
         mainAxisSpacing: 5,
         children: List.generate(
-          12,
+          14,
           (index) {
             index = index + 1;
             return InkWell(
@@ -25,7 +25,7 @@ class CustomGridView extends StatelessWidget {
                       contentPadding: EdgeInsets.all(0),
                       content: Container(
                         child: Image.asset(
-                          'assets/images/img$index.jpg',
+                          'assets/images/$index.jpg',
                           fit: BoxFit.cover,
                         ),
                       )),
@@ -35,7 +35,7 @@ class CustomGridView extends StatelessWidget {
                 padding: EdgeInsets.all(5),
                 child: Center(
                   child: Image.asset(
-                    'assets/images/img$index.jpg',
+                    'assets/images/$index.jpg',
                   ),
                 ),
               ),

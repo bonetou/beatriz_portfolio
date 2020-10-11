@@ -13,7 +13,7 @@ class MainpageButton extends StatelessWidget {
       child: InkWell(
         splashColor: Colors.amber,
         onTap: () {
-          Navigator.pushNamed(context, '/homepage');
+          Navigator.pushNamed(context, '/projects');
         },
         child: Opacity(
           opacity: myOpacity,

@@ -36,6 +36,7 @@ class ContactBox extends StatelessWidget {
             typeText,
             style: TextStyle(
               fontSize: myFontsize,
+              color: Colors.black
             ),
             textAlign: TextAlign.center,
           ),
