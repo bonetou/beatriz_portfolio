@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'pages/mainpage.dart';
 import 'pages/homepage.dart';
 
 void main() {
@@ -16,9 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(fontFamily: 'Rajdhani'),
       routes: {
         '/': (context) => MainPage(),
-        '/homepage': (context) => HomePage(),
       },
     );
   }
 }
-
