@@ -14,8 +14,8 @@ class AboutPageContainer extends StatelessWidget {
   
   AboutPageContainer({this.myPadding, this.imageHeigth, this.imageWidth, this.fontSizeText});
   final String imagePath = 'assets/others/profile_picture.jpeg';
-  final String presentationText = 'Olá! Me Chamo Beatriz Severo, tenho 22 anos, vivo em Porto Alegre e sou estudante de Design de Produto da Universidade Federal do Rio Grande do Sul (UFRGS). Atualmente faço divulgação de meus trabalhos nas redes sociais e estou em constante busca de aprendizados externos além do que a universidade nos oferece, aprendendo por exemplo Isometric Illustration, Digital Comic e Animação.';
-  final String curriculumLink = 'https://drive.google.com/file/d/1gwDHNV0xuIIQSG_Hs80dGpJGYQ8P-ym1/view?usp=sharing';
+  final String presentationText = 'Olá! Me Chamo Beatriz Severo, tenho 22 anos, vivo em Porto Alegre e sou estudante de Design de Produto da Universidade Federal do Rio Grande do Sul (UFRGS). Atualmente faço divulgação de meus trabalhos nas redes sociais e estou em constante busca de aprendizados externos além do que a universidade nos oferece, aprendendo por exemplo Isometric Illustration, Digital Comic, Animação, Web Design e UI.';
+  final String curriculumLink = 'https://drive.google.com/file/d/1nnpJPPVSHYoTUDV-6wn2tar6EqZaOR7b/view';
   @override
   Widget build(BuildContext context) {
     return Container(

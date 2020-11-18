@@ -10,7 +10,7 @@ class CustomGridView extends StatelessWidget {
         crossAxisSpacing: 5,
         mainAxisSpacing: 5,
         children: List.generate(
-          14,
+          18,
           (index) {
             index = index + 1;
             return InkWell(
